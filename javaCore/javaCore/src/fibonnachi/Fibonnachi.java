@@ -12,6 +12,7 @@ public class Fibonnachi {
 	int b = 1;
 	int c = sc.nextInt();
 	int d = 0;
+System.out.println("your numbers are");
 	System.out.println("0");
 	System.out.println("1");
 	for(int i = 0; i < c-2;i++) {
