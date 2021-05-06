@@ -4,16 +4,11 @@ public class Scanner {
 
 	public static void main(String[] args) {
 		
-		int i[] = new int[5010];
+		One o1= new One();
+		Two o2 = new Two();
+		o1.start();
+		o2.start();
 		
-		for(int k = 0;k<5010;k++) {
-			
-			i[k]=k;
-
-	}
-		for(int k = 0; k<5010; k++) {
-			System.out.println(i[k]*20);
-		}
-
+		
 }
 }
